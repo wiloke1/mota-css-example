@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container_1426363258 {
+  padding: 30px;
+  background-color: #eee;
+}
+.container_1426363258:hover .text_1426363258 {
+  color: blue;
+}
+
+.title_1426363258 {
+  font-size: 50px;
+}
+
+.text_1426363258 {
+  font-size: 15px;
+  color: red;
+}
+
+.bd\:2px_solid_red {
+  border: 2px solid red;
+}
+
+.c\:color-primary {
+  color: var(--color-primary);
+}
+
+.c\:\#f00 {
+  color: #f00;
+}
+
+.c\:rgba\(255\,255\,255\,0\.6\)\! {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.c\:red\|hover\|after:hover:after {
+  color: red;
+}
+
+.c\:red {
+  color: red;
+}
+
+.c\:blue\|h:hover {
+  color: blue;
+}
+
+.color\:red {
+  color: red;
+}
+
+.cnt\:\'after\'\|af:after {
+  content: "after";
+}
+
+.cnt\:\'after_hover\'\|hover\|af:hover:after {
+  content: "after hover";
+}
+
+.d\:block {
+  display: block;
+}
+
+.fz\:pfs\(20px\,60px\) {
+  font-size: clamp(20px, 5vw + 0px, 60px);
+}
+
+.fz\:20px {
+  font-size: 20px;
+}
+
+.font-size\:16px {
+  font-size: 16px;
+}
+
+.m\:auto {
+  margin: auto;
+}
+
+.margin-top\:20px {
+  margin-top: 20px;
+}
+
+.max-width\:1000px {
+  max-width: 1000px;
+}
+
+.p\:10px {
+  padding: 10px;
+}
+
+.pos\:relative\! {
+  position: relative !important;
+}
+
+@media (max-width: 400px) {
+  .c\:blue\@\+400px\! {
+    color: blue !important;
+  }
+}
+@media (min-width: 768px) {
+  .c\:green\@sm {
+    color: green;
+  }
+}
