@@ -8,17 +8,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-`
+`;
 
 module.exports = {
-  defaultCss,
+  defaultCss: "",
+  useRtl: true,
   breakpoints: {
     sm: "768px",
     md: "992px",
-    lg: "1200px"
+    lg: "1200px",
   },
   custom: {
     "color-primary": "var(--color-primary)",
-    "color-secondary": "var(--color-secondary)"
-  }
+    "color-secondary": "var(--color-secondary)",
+  },
 };

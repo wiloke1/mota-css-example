@@ -6,7 +6,7 @@ function App() {
       <h2>CSS ATOMIC</h2>
       <div class="test-abc pos:relative! p:10px d:block bd:2px_solid_red cnt:'after'|af cnt:'after_hover'|hover|af">
         <div class="c:color-primary c:#f00 c:rgba(255,255,255,0.6)! c:red|hover|after"></div>
-        <h2 class="c:red c:blue|h fz:pfs(20px,60px)">Title</h2>
+        <h2 class="ml:50px c:red c:blue|h fz:pfs(20px,60px)">Title</h2>
         <div class="c:color-primary c:blue@+400px! c:green@sm fz:20px">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
           quaerat.
