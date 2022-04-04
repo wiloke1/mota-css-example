@@ -305,6 +305,23 @@ img:not([src]) {
   color: var(--color-quaternary);
 }
 
+.container_1426363258 {
+  padding: 30px;
+  background-color: #eee;
+}
+.container_1426363258:hover .text_1426363258 {
+  color: blue;
+}
+
+.title_1426363258 {
+  font-size: 50px;
+}
+
+.text_1426363258 {
+  font-size: 15px;
+  color: red;
+}
+
 .bd\:2px_solid_red {
   border: 2px solid red;
 }
@@ -565,16 +582,12 @@ img:not([src]) {
   transform: scale(1.2);
 }
 
-.z\:1 {
-  z-index: 1;
-}
-
-.trs\:0\.4s {
-  transition: 0.4s;
-}
-
 .trs\:all_0\.4s_ease {
   transition: all 0.4s ease;
+}
+
+.z\:1 {
+  z-index: 1;
 }
 
 @media (max-width: 400px) {
