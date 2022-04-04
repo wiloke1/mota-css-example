@@ -46,6 +46,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/Womens-pants-black-1_WEB_400x.jpg?v=1634091629"
                         alt="Levi's Commuter Skinny Jeans"
                       />
@@ -85,6 +86,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/pure-fix-softball-tee-web-2_400x.jpg?v=1634091396"
                         alt="Pure Fix 1940's Softball Jersey"
                       />
@@ -128,6 +130,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/seamless-women-tee_400x.jpg?v=1634091072"
                         alt="Pure Fix 1940's Lady Tee"
                       />
@@ -171,6 +174,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/button-down-mech-tee_400x.jpg?v=1634091040"
                         alt="Pure Fix Mechanic Shirt"
                       />
@@ -210,6 +214,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/gray_shirt_black_wing_3_400x.jpg?v=1634090859"
                         alt="Pure Fix Tribal Tee"
                       />
@@ -249,6 +254,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/shirt_1_400x.png?v=1634090793"
                         alt="Pure Fix Wing Tee"
                       />
@@ -288,6 +294,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/hoodie_1201_400x.jpg?v=1634090789"
                         alt="Pure Fix 1940's Zip Hoodie"
                       />
@@ -331,6 +338,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/Tshirt_Pure-Fix_Black_Front_WEB_400x.jpg?v=1634090777"
                         alt="Pure Fix 1940's Tee"
                       />
@@ -370,6 +378,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/raglan_1201_400x.jpg?v=1634090771"
                         alt="Pure Fix 1940's Pullover"
                       />
@@ -409,6 +418,7 @@ function App() {
                   <a href="/">
                     <div className="core-image-cover">
                       <img
+                        className="trf:scale(1.2)|hover trs:all_0.4s_ease"
                         src="https://cdn.shopify.com/s/files/1/0550/4260/5277/products/man-adjusts-blue-tuxedo-bowtie_925x_f8d01756-6827-4fa6-b682-4c4a2ee2285d_400x.jpg?v=1634009326"
                         alt="Blue Silk Tuxedo"
                       />
