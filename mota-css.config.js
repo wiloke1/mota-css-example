@@ -11,7 +11,7 @@ body {
 `;
 
 module.exports = {
-  defaultCss: "",
+  defaultCss,
   useRtl: true,
   breakpoints: {
     sm: "768px",
