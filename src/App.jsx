@@ -29,6 +29,92 @@ function App() {
       </div>
       <section className="pos:relative z:1 pt:50px pb:50px bgz:cover bgp:center">
         <div className="container">
+          <div className="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-1">
+            <div className="col">
+              <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
+                <div className="fz:pfs(30px,50px)">
+                  <i className="fal fa-bow-arrow" />
+                </div>
+                <h2 className="m:0 mt:15px fz:pfs(18px,24px) fw:600!">
+                  Curabitur ac porta sapien
+                </h2>
+                <div className="mt:10px op:0.8 fz:15px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  malesuada augue eu rhoncus vehicula
+                </div>
+                <a
+                  href="/"
+                  className="d:inline-block bxsh:none o:0 td:none p:13px_20px bdrs:10px bgc:#6257de c:#fff bgc:#3c2fc9|h trs:0.3s c:#fff|hover mt:20px fz:14px fw:600"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+            <div className="col">
+              <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
+                <div className="fz:pfs(30px,50px)">
+                  <i className="fal fa-briefcase" />
+                </div>
+                <h2 className="m:0 mt:15px fz:pfs(18px,24px) fw:600!">
+                  Sed placerat sed purus
+                </h2>
+                <div className="mt:10px op:0.8 fz:15px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  malesuada augue eu rhoncus vehicula
+                </div>
+                <a
+                  href="/"
+                  className="d:inline-block bxsh:none o:0 td:none p:13px_20px bdrs:10px bgc:#6257de c:#fff bgc:#3c2fc9|h trs:0.3s c:#fff|hover mt:20px fz:14px fw:600"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+            <div className="col">
+              <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
+                <div className="fz:pfs(30px,50px)">
+                  <i className="fal fa-building" />
+                </div>
+                <h2 className="m:0 mt:15px fz:pfs(18px,24px) fw:600!">
+                  Fusce elementum ullamcorper
+                </h2>
+                <div className="mt:10px op:0.8 fz:15px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  malesuada augue eu rhoncus vehicula
+                </div>
+                <a
+                  href="/"
+                  className="d:inline-block bxsh:none o:0 td:none p:13px_20px bdrs:10px bgc:#6257de c:#fff bgc:#3c2fc9|h trs:0.3s c:#fff|hover mt:20px fz:14px fw:600"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+            <div className="col">
+              <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
+                <div className="fz:pfs(30px,50px)">
+                  <i className="fal fa-cloud-moon" />
+                </div>
+                <h2 className="m:0 mt:15px fz:pfs(18px,24px) fw:600!">
+                  In bibendum aliquam erat
+                </h2>
+                <div className="mt:10px op:0.8 fz:15px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  malesuada augue eu rhoncus vehicula
+                </div>
+                <a
+                  href="/"
+                  className="d:inline-block bxsh:none o:0 td:none p:13px_20px bdrs:10px bgc:#6257de c:#fff bgc:#3c2fc9|h trs:0.3s c:#fff|hover mt:20px fz:14px fw:600"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="pos:relative z:1 pt:50px pb:50px bgz:cover bgp:center">
+        <div className="container">
           <div className="ta:center mb:20px">
             <h2>Products ( Atomic css )</h2>
             <div>
