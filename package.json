@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "mota-css": "0.0.15",
-    "webpack-mota-css-loader": "0.0.20"
+    "mota-css": "0.1.0",
+    "webpack-mota-css-loader": "0.1.0"
   }
 }
