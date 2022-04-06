@@ -5783,10 +5783,10 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
-mota-css@0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/mota-css/-/mota-css-0.1.7.tgz#fc7a6f117e81c917e032ab78970ae297d40f4c86"
-  integrity sha512-hfDzdDkdCbmXbyp+TZk4uLR/K7h2T/3H0fl3jtmfGQ/Yc/H5yY57ftdRuqVsjvrMlUcaGiLU3Bf6LfCIZN20Lg==
+mota-css@0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/mota-css/-/mota-css-0.1.8.tgz#aa94433830d4294686bae894679039abef6b9b17"
+  integrity sha512-T8GwKwr4pvL/F8FsKZ6acOFTkDQQif0AkXnKnhIUimzaVoFMTDMEmlNvk1LkjOAo/qJIULK5ktGPz2FihV5DqQ==
   dependencies:
     chokidar "^3.5.3"
     commander "^9.1.0"
