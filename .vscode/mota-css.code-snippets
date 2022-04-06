@@ -2,23 +2,23 @@
   "#0": {
     "prefix": "animation",
     "body": [
-      "anim:${1:value}"
+      "anim:"
     ],
-    "description": "anim:value"
+    "description": "anim:"
   },
   "#1": {
     "prefix": "animation-delay",
     "body": [
-      "animdel:${1:value}"
+      "animdel:"
     ],
-    "description": "animdel:value"
+    "description": "animdel:"
   },
   "#2": {
     "prefix": "animation-direction",
     "body": [
-      "animdir:${1:value}"
+      "animdir:"
     ],
-    "description": "animdir:value"
+    "description": "animdir:"
   },
   "#3": {
     "prefix": "animation-direction: alternate",
@@ -51,16 +51,16 @@
   "#7": {
     "prefix": "animation-duration",
     "body": [
-      "animdur:${1:value}"
+      "animdur:"
     ],
-    "description": "animdur:value"
+    "description": "animdur:"
   },
   "#8": {
     "prefix": "animation-fill-mode",
     "body": [
-      "animfm:${1:value}"
+      "animfm:"
     ],
-    "description": "animfm:value"
+    "description": "animfm:"
   },
   "#9": {
     "prefix": "animation-fill-mode: backwards",
@@ -93,9 +93,9 @@
   "#13": {
     "prefix": "animation-iteration-count",
     "body": [
-      "animic:${1:value}"
+      "animic:"
     ],
-    "description": "animic:value"
+    "description": "animic:"
   },
   "#14": {
     "prefix": "animation-iteration-count: infinite",
@@ -107,9 +107,9 @@
   "#15": {
     "prefix": "animation-name",
     "body": [
-      "animn:${1:value}"
+      "animn:"
     ],
-    "description": "animn:value"
+    "description": "animn:"
   },
   "#16": {
     "prefix": "animation-name: none",
@@ -121,9 +121,9 @@
   "#17": {
     "prefix": "animation-play-state",
     "body": [
-      "animps:${1:value}"
+      "animps:"
     ],
-    "description": "animps:value"
+    "description": "animps:"
   },
   "#18": {
     "prefix": "animation-play-state: paused",
@@ -142,9 +142,9 @@
   "#20": {
     "prefix": "animation-timing-function",
     "body": [
-      "animtf:${1:value}"
+      "animtf:"
     ],
-    "description": "animtf:value"
+    "description": "animtf:"
   },
   "#21": {
     "prefix": "animation-timing-function: ease",
@@ -198,9 +198,9 @@
   "#28": {
     "prefix": "border",
     "body": [
-      "bd:${1:value}"
+      "bd:"
     ],
-    "description": "bd:value"
+    "description": "bd:"
   },
   "#29": {
     "prefix": "border: 0",
@@ -219,37 +219,37 @@
   "#33": {
     "prefix": "border-top",
     "body": [
-      "bdt:${1:value}"
+      "bdt:"
     ],
-    "description": "bdt:value"
+    "description": "bdt:"
   },
   "#34": {
     "prefix": "border-right",
     "body": [
-      "bdend:${1:value}"
+      "bdend:"
     ],
-    "description": "bdend:value"
+    "description": "bdend:"
   },
   "#35": {
     "prefix": "border-bottom",
     "body": [
-      "bdb:${1:value}"
+      "bdb:"
     ],
-    "description": "bdb:value"
+    "description": "bdb:"
   },
   "#36": {
     "prefix": "border-left",
     "body": [
-      "bdstart:${1:value}"
+      "bdstart:"
     ],
-    "description": "bdstart:value"
+    "description": "bdstart:"
   },
   "#37": {
     "prefix": "border-color",
     "body": [
-      "bdc:${1:value}"
+      "bdc:"
     ],
-    "description": "bdc:value"
+    "description": "bdc:"
   },
   "#38": {
     "prefix": "border-color: transparent",
@@ -275,9 +275,9 @@
   "#188": {
     "prefix": "border-top-color",
     "body": [
-      "bdtc:${1:value}"
+      "bdtc:"
     ],
-    "description": "bdtc:value"
+    "description": "bdtc:"
   },
   "#189": {
     "prefix": "border-top-color: transparent",
@@ -303,9 +303,9 @@
   "#339": {
     "prefix": "border-right-color",
     "body": [
-      "bdendc:${1:value}"
+      "bdendc:"
     ],
-    "description": "bdendc:value"
+    "description": "bdendc:"
   },
   "#340": {
     "prefix": "border-right-color: transparent",
@@ -331,9 +331,9 @@
   "#490": {
     "prefix": "border-bottom-color",
     "body": [
-      "bdbc:${1:value}"
+      "bdbc:"
     ],
-    "description": "bdbc:value"
+    "description": "bdbc:"
   },
   "#491": {
     "prefix": "border-bottom-color: transparent",
@@ -359,9 +359,9 @@
   "#641": {
     "prefix": "border-left-color",
     "body": [
-      "bdstartc:${1:value}"
+      "bdstartc:"
     ],
-    "description": "bdstartc:value"
+    "description": "bdstartc:"
   },
   "#642": {
     "prefix": "border-left-color: transparent",
@@ -387,9 +387,9 @@
   "#792": {
     "prefix": "border-spacing1 value2",
     "body": [
-      "bdsp:${1:value}"
+      "bdsp:"
     ],
-    "description": "bdsp:value"
+    "description": "bdsp:"
   },
   "#793": {
     "prefix": "border-spacing: inherit ",
@@ -401,9 +401,9 @@
   "#794": {
     "prefix": "border-style",
     "body": [
-      "bds:${1:value}"
+      "bds:"
     ],
-    "description": "bds:value"
+    "description": "bds:"
   },
   "#795": {
     "prefix": "border-style: dotted",
@@ -478,9 +478,9 @@
   "#805": {
     "prefix": "border-top-style",
     "body": [
-      "bdts:${1:value}"
+      "bdts:"
     ],
-    "description": "bdts:value"
+    "description": "bdts:"
   },
   "#806": {
     "prefix": "border-top-style: dotted",
@@ -555,9 +555,9 @@
   "#816": {
     "prefix": "border-right-style",
     "body": [
-      "bdends:${1:value}"
+      "bdends:"
     ],
-    "description": "bdends:value"
+    "description": "bdends:"
   },
   "#817": {
     "prefix": "border-right-style: dotted",
@@ -632,9 +632,9 @@
   "#827": {
     "prefix": "border-bottom-style",
     "body": [
-      "bdbs:${1:value}"
+      "bdbs:"
     ],
-    "description": "bdbs:value"
+    "description": "bdbs:"
   },
   "#828": {
     "prefix": "border-bottom-style: dotted",
@@ -709,9 +709,9 @@
   "#838": {
     "prefix": "border-left-style",
     "body": [
-      "bdstarts:${1:value}"
+      "bdstarts:"
     ],
-    "description": "bdstarts:value"
+    "description": "bdstarts:"
   },
   "#839": {
     "prefix": "border-left-style: dotted",
@@ -786,9 +786,9 @@
   "#849": {
     "prefix": "border-width",
     "body": [
-      "bdw:${1:value}"
+      "bdw:"
     ],
-    "description": "bdw:value"
+    "description": "bdw:"
   },
   "#850": {
     "prefix": "border-width: medium",
@@ -814,9 +814,9 @@
   "#853": {
     "prefix": "border-top-width",
     "body": [
-      "bdtw:${1:value}"
+      "bdtw:"
     ],
-    "description": "bdtw:value"
+    "description": "bdtw:"
   },
   "#854": {
     "prefix": "border-top-width: medium",
@@ -842,9 +842,9 @@
   "#857": {
     "prefix": "border-right-width",
     "body": [
-      "bdendw:${1:value}"
+      "bdendw:"
     ],
-    "description": "bdendw:value"
+    "description": "bdendw:"
   },
   "#858": {
     "prefix": "border-right-width: medium",
@@ -870,9 +870,9 @@
   "#861": {
     "prefix": "border-bottom-width",
     "body": [
-      "bdbw:${1:value}"
+      "bdbw:"
     ],
-    "description": "bdbw:value"
+    "description": "bdbw:"
   },
   "#862": {
     "prefix": "border-bottom-width: medium",
@@ -898,9 +898,9 @@
   "#865": {
     "prefix": "border-left-width",
     "body": [
-      "bdstartw:${1:value}"
+      "bdstartw:"
     ],
-    "description": "bdstartw:value"
+    "description": "bdstartw:"
   },
   "#866": {
     "prefix": "border-left-width: medium",
@@ -926,44 +926,44 @@
   "#869": {
     "prefix": "border-radius",
     "body": [
-      "bdrs:${1:value}"
+      "bdrs:"
     ],
-    "description": "bdrs:value"
+    "description": "bdrs:"
   },
   "#870": {
     "prefix": "border-top-right-radius",
     "body": [
-      "bdrstend:${1:value}"
+      "bdrstend:"
     ],
-    "description": "bdrstend:value"
+    "description": "bdrstend:"
   },
   "#871": {
     "prefix": "border-bottom-right-radius",
     "body": [
-      "bdrsbend:${1:value}"
+      "bdrsbend:"
     ],
-    "description": "bdrsbend:value"
+    "description": "bdrsbend:"
   },
   "#872": {
     "prefix": "border-bottom-left-radius",
     "body": [
-      "bdrsbstart:${1:value}"
+      "bdrsbstart:"
     ],
-    "description": "bdrsbstart:value"
+    "description": "bdrsbstart:"
   },
   "#873": {
     "prefix": "border-top-left-radius",
     "body": [
-      "bdrststart:${1:value}"
+      "bdrststart:"
     ],
-    "description": "bdrststart:value"
+    "description": "bdrststart:"
   },
   "#874": {
     "prefix": "background",
     "body": [
-      "bg:${1:value}"
+      "bg:"
     ],
-    "description": "bg:value"
+    "description": "bg:"
   },
   "#875": {
     "prefix": "background: none",
@@ -982,9 +982,9 @@
   "#877": {
     "prefix": "background-image",
     "body": [
-      "bgi:${1:value}"
+      "bgi:"
     ],
-    "description": "bgi:value"
+    "description": "bgi:"
   },
   "#878": {
     "prefix": "background-image: none",
@@ -996,9 +996,9 @@
   "#879": {
     "prefix": "background-color",
     "body": [
-      "bgc:${1:value}"
+      "bgc:"
     ],
-    "description": "bgc:value"
+    "description": "bgc:"
   },
   "#880": {
     "prefix": "background-color: transparent",
@@ -1024,9 +1024,9 @@
   "#1030": {
     "prefix": "background-clip",
     "body": [
-      "bgcp:${1:value}"
+      "bgcp:"
     ],
-    "description": "bgcp:value"
+    "description": "bgcp:"
   },
   "#1031": {
     "prefix": "background-clip: border-box",
@@ -1052,9 +1052,9 @@
   "#1034": {
     "prefix": "background-origin",
     "body": [
-      "bgo:${1:value}"
+      "bgo:"
     ],
-    "description": "bgo:value"
+    "description": "bgo:"
   },
   "#1035": {
     "prefix": "background-origin: border-box",
@@ -1080,9 +1080,9 @@
   "#1038": {
     "prefix": "background-size",
     "body": [
-      "bgz:${1:value}"
+      "bgz:"
     ],
-    "description": "bgz:value"
+    "description": "bgz:"
   },
   "#1039": {
     "prefix": "background-size: auto",
@@ -1108,9 +1108,9 @@
   "#1042": {
     "prefix": "background-attachment",
     "body": [
-      "bga:${1:value}"
+      "bga:"
     ],
-    "description": "bga:value"
+    "description": "bga:"
   },
   "#1043": {
     "prefix": "background-attachment: fixed",
@@ -1136,9 +1136,9 @@
   "#1046": {
     "prefix": "background-position1 value2",
     "body": [
-      "bgp:${1:value}"
+      "bgp:"
     ],
-    "description": "bgp:value"
+    "description": "bgp:"
   },
   "#1047": {
     "prefix": "background-position: left 0 ",
@@ -1206,9 +1206,9 @@
   "#1056": {
     "prefix": "background-position-x",
     "body": [
-      "bgpx:${1:value}"
+      "bgpx:"
     ],
-    "description": "bgpx:value"
+    "description": "bgpx:"
   },
   "#1057": {
     "prefix": "background-position-x: left",
@@ -1234,9 +1234,9 @@
   "#1060": {
     "prefix": "background-position-y",
     "body": [
-      "bgpy:${1:value}"
+      "bgpy:"
     ],
-    "description": "bgpy:value"
+    "description": "bgpy:"
   },
   "#1061": {
     "prefix": "background-position-y: 0",
@@ -1262,9 +1262,9 @@
   "#1064": {
     "prefix": "background-repeat",
     "body": [
-      "bgr:${1:value}"
+      "bgr:"
     ],
-    "description": "bgr:value"
+    "description": "bgr:"
   },
   "#1065": {
     "prefix": "background-repeat: no-repeat",
@@ -1311,9 +1311,9 @@
   "#1071": {
     "prefix": "border-collapse",
     "body": [
-      "bdcl:${1:value}"
+      "bdcl:"
     ],
-    "description": "bdcl:value"
+    "description": "bdcl:"
   },
   "#1072": {
     "prefix": "border-collapse: collapse",
@@ -1332,9 +1332,9 @@
   "#1074": {
     "prefix": "box-sizing",
     "body": [
-      "bxz:${1:value}"
+      "bxz:"
     ],
-    "description": "bxz:value"
+    "description": "bxz:"
   },
   "#1075": {
     "prefix": "box-sizing: content-box",
@@ -1360,9 +1360,9 @@
   "#1078": {
     "prefix": "box-shadow",
     "body": [
-      "bxsh:${1:value}"
+      "bxsh:"
     ],
-    "description": "bxsh:value"
+    "description": "bxsh:"
   },
   "#1079": {
     "prefix": "box-shadow: none",
@@ -1374,9 +1374,9 @@
   "#1080": {
     "prefix": "clear",
     "body": [
-      "cl:${1:value}"
+      "cl:"
     ],
-    "description": "cl:value"
+    "description": "cl:"
   },
   "#1081": {
     "prefix": "clear: none",
@@ -1409,9 +1409,9 @@
   "#1085": {
     "prefix": "color",
     "body": [
-      "c:${1:value}"
+      "c:"
     ],
-    "description": "c:value"
+    "description": "c:"
   },
   "#1086": {
     "prefix": "color: transparent",
@@ -1437,9 +1437,9 @@
   "#1236": {
     "prefix": "content",
     "body": [
-      "cnt:${1:value}"
+      "cnt:"
     ],
-    "description": "cnt:value"
+    "description": "cnt:"
   },
   "#1237": {
     "prefix": "content: none",
@@ -1486,9 +1486,9 @@
   "#1243": {
     "prefix": "cursor",
     "body": [
-      "cur:${1:value}"
+      "cur:"
     ],
-    "description": "cur:value"
+    "description": "cur:"
   },
   "#1244": {
     "prefix": "cursor: auto",
@@ -1731,9 +1731,9 @@
   "#1278": {
     "prefix": "display",
     "body": [
-      "d:${1:value}"
+      "d:"
     ],
-    "description": "d:value"
+    "description": "d:"
   },
   "#1279": {
     "prefix": "display: none",
@@ -1857,9 +1857,9 @@
   "#1296": {
     "prefix": "filter",
     "body": [
-      "fil:${1:value}"
+      "fil:"
     ],
-    "description": "fil:value"
+    "description": "fil:"
   },
   "#1297": {
     "prefix": "filter: none",
@@ -1941,9 +1941,9 @@
   "#1308": {
     "prefix": "flex",
     "body": [
-      "flx:${1:value}"
+      "flx:"
     ],
-    "description": "flx:value"
+    "description": "flx:"
   },
   "#1309": {
     "prefix": "flex: auto",
@@ -1962,23 +1962,23 @@
   "#1311": {
     "prefix": "flex-grow",
     "body": [
-      "flxg:${1:value}"
+      "flxg:"
     ],
-    "description": "flxg:value"
+    "description": "flxg:"
   },
   "#1312": {
     "prefix": "flex-shrink",
     "body": [
-      "flxs:${1:value}"
+      "flxs:"
     ],
-    "description": "flxs:value"
+    "description": "flxs:"
   },
   "#1313": {
     "prefix": "flex-basis",
     "body": [
-      "flxb:${1:value}"
+      "flxb:"
     ],
-    "description": "flxb:value"
+    "description": "flxb:"
   },
   "#1314": {
     "prefix": "flex-basis: auto",
@@ -1997,9 +1997,9 @@
   "#1316": {
     "prefix": "align-self",
     "body": [
-      "as:${1:value}"
+      "as:"
     ],
-    "description": "as:value"
+    "description": "as:"
   },
   "#1317": {
     "prefix": "align-self: auto",
@@ -2046,9 +2046,9 @@
   "#1323": {
     "prefix": "flex-direction",
     "body": [
-      "fld:${1:value}"
+      "fld:"
     ],
-    "description": "fld:value"
+    "description": "fld:"
   },
   "#1324": {
     "prefix": "flex-direction: row",
@@ -2081,9 +2081,9 @@
   "#1328": {
     "prefix": "flex-flow",
     "body": [
-      "flf:${1:value}"
+      "flf:"
     ],
-    "description": "flf:value"
+    "description": "flf:"
   },
   "#1329": {
     "prefix": "flex-flow: row",
@@ -2137,9 +2137,9 @@
   "#1336": {
     "prefix": "align-items",
     "body": [
-      "ai:${1:value}"
+      "ai:"
     ],
-    "description": "ai:value"
+    "description": "ai:"
   },
   "#1337": {
     "prefix": "align-items: flex-start",
@@ -2179,9 +2179,9 @@
   "#1342": {
     "prefix": "align-content",
     "body": [
-      "ac:${1:value}"
+      "ac:"
     ],
-    "description": "ac:value"
+    "description": "ac:"
   },
   "#1343": {
     "prefix": "align-content: flex-start",
@@ -2228,16 +2228,16 @@
   "#1349": {
     "prefix": "order",
     "body": [
-      "or:${1:value}"
+      "or:"
     ],
-    "description": "or:value"
+    "description": "or:"
   },
   "#1350": {
     "prefix": "justify-content",
     "body": [
-      "jc:${1:value}"
+      "jc:"
     ],
-    "description": "jc:value"
+    "description": "jc:"
   },
   "#1351": {
     "prefix": "justify-content: flex-start",
@@ -2277,9 +2277,9 @@
   "#1356": {
     "prefix": "flex-wrap",
     "body": [
-      "flw:${1:value}"
+      "flw:"
     ],
-    "description": "flw:value"
+    "description": "flw:"
   },
   "#1357": {
     "prefix": "flex-wrap: nowrap",
@@ -2305,9 +2305,9 @@
   "#1360": {
     "prefix": "float",
     "body": [
-      "fl:${1:value}"
+      "fl:"
     ],
-    "description": "fl:value"
+    "description": "fl:"
   },
   "#1361": {
     "prefix": "float: none",
@@ -2333,9 +2333,9 @@
   "#1364": {
     "prefix": "font-family",
     "body": [
-      "ff:${1:value}"
+      "ff:"
     ],
-    "description": "ff:value"
+    "description": "ff:"
   },
   "#1365": {
     "prefix": "font-family: 'MonotypeCorsiva', 'ComicSansMS', cursive",
@@ -2375,9 +2375,9 @@
   "#1370": {
     "prefix": "font-weight",
     "body": [
-      "fw:${1:value}"
+      "fw:"
     ],
-    "description": "fw:value"
+    "description": "fw:"
   },
   "#1371": {
     "prefix": "font-weight: 100",
@@ -2473,16 +2473,16 @@
   "#1384": {
     "prefix": "font-size",
     "body": [
-      "fz:${1:value}"
+      "fz:"
     ],
-    "description": "fz:value"
+    "description": "fz:"
   },
   "#1385": {
     "prefix": "font-style",
     "body": [
-      "fs:${1:value}"
+      "fs:"
     ],
-    "description": "fs:value"
+    "description": "fs:"
   },
   "#1386": {
     "prefix": "font-style: normal",
@@ -2508,9 +2508,9 @@
   "#1389": {
     "prefix": "font-variant",
     "body": [
-      "fv:${1:value}"
+      "fv:"
     ],
-    "description": "fv:value"
+    "description": "fv:"
   },
   "#1390": {
     "prefix": "font-variant: normal",
@@ -2529,9 +2529,9 @@
   "#1392": {
     "prefix": "height",
     "body": [
-      "h:${1:value}"
+      "h:"
     ],
-    "description": "h:value"
+    "description": "h:"
   },
   "#1393": {
     "prefix": "height: 0",
@@ -2592,9 +2592,9 @@
   "#1401": {
     "prefix": "hyphens",
     "body": [
-      "hy:${1:value}"
+      "hy:"
     ],
-    "description": "hy:value"
+    "description": "hy:"
   },
   "#1402": {
     "prefix": "hyphens: auto",
@@ -2620,9 +2620,9 @@
   "#1405": {
     "prefix": "letter-spacing",
     "body": [
-      "lts:${1:value}"
+      "lts:"
     ],
-    "description": "lts:value"
+    "description": "lts:"
   },
   "#1406": {
     "prefix": "letter-spacing: normal",
@@ -2634,9 +2634,9 @@
   "#1407": {
     "prefix": "list-style-type",
     "body": [
-      "list:${1:value}"
+      "list:"
     ],
-    "description": "list:value"
+    "description": "list:"
   },
   "#1408": {
     "prefix": "list-style-type: none",
@@ -2746,9 +2746,9 @@
   "#1423": {
     "prefix": "list-style-position",
     "body": [
-      "lisp:${1:value}"
+      "lisp:"
     ],
-    "description": "lisp:value"
+    "description": "lisp:"
   },
   "#1424": {
     "prefix": "list-style-position: inside",
@@ -2767,9 +2767,9 @@
   "#1426": {
     "prefix": "list-style-image",
     "body": [
-      "lisi:${1:value}"
+      "lisi:"
     ],
-    "description": "lisi:value"
+    "description": "lisi:"
   },
   "#1427": {
     "prefix": "list-style-image: none",
@@ -2781,9 +2781,9 @@
   "#1428": {
     "prefix": "line-height",
     "body": [
-      "lh:${1:value}"
+      "lh:"
     ],
-    "description": "lh:value"
+    "description": "lh:"
   },
   "#1429": {
     "prefix": "line-height: normal",
@@ -2795,9 +2795,9 @@
   "margin": {
     "prefix": "margin",
     "body": [
-      "m:${1:value}"
+      "m:"
     ],
-    "description": "m:value"
+    "description": "m:"
   },
   "margin => 0": {
     "prefix": "margin: 0",
@@ -2816,9 +2816,9 @@
   "margin-top": {
     "prefix": "margin-top",
     "body": [
-      "mt:${1:value}"
+      "mt:"
     ],
-    "description": "mt:value"
+    "description": "mt:"
   },
   "margin-top => 0": {
     "prefix": "margin-top: 0",
@@ -2837,9 +2837,9 @@
   "#1442": {
     "prefix": "margin-right",
     "body": [
-      "mr:${1:value}"
+      "mr:"
     ],
-    "description": "mr:value"
+    "description": "mr:"
   },
   "#1443": {
     "prefix": "margin-right: 0",
@@ -2858,9 +2858,9 @@
   "#1445": {
     "prefix": "margin-bottom",
     "body": [
-      "mb:${1:value}"
+      "mb:"
     ],
-    "description": "mb:value"
+    "description": "mb:"
   },
   "#1446": {
     "prefix": "margin-bottom: 0",
@@ -2879,9 +2879,9 @@
   "#1448": {
     "prefix": "margin-left",
     "body": [
-      "ml:${1:value}"
+      "ml:"
     ],
-    "description": "ml:value"
+    "description": "ml:"
   },
   "#1449": {
     "prefix": "margin-left: 0",
@@ -2900,9 +2900,9 @@
   "#1451": {
     "prefix": "max-height",
     "body": [
-      "mah:${1:value}"
+      "mah:"
     ],
-    "description": "mah:value"
+    "description": "mah:"
   },
   "#1452": {
     "prefix": "max-height: auto",
@@ -2942,9 +2942,9 @@
   "#1457": {
     "prefix": "max-width",
     "body": [
-      "maw:${1:value}"
+      "maw:"
     ],
-    "description": "maw:value"
+    "description": "maw:"
   },
   "#1458": {
     "prefix": "max-width: none",
@@ -2984,9 +2984,9 @@
   "#1463": {
     "prefix": "min-height",
     "body": [
-      "mih:${1:value}"
+      "mih:"
     ],
-    "description": "mih:value"
+    "description": "mih:"
   },
   "#1464": {
     "prefix": "min-height: auto",
@@ -3026,9 +3026,9 @@
   "#1469": {
     "prefix": "min-width",
     "body": [
-      "miw:${1:value}"
+      "miw:"
     ],
-    "description": "miw:value"
+    "description": "miw:"
   },
   "#1470": {
     "prefix": "min-width: auto",
@@ -3068,9 +3068,9 @@
   "#1475": {
     "prefix": "outline",
     "body": [
-      "o:${1:value}"
+      "o:"
     ],
-    "description": "o:value"
+    "description": "o:"
   },
   "#1476": {
     "prefix": "outline: 0",
@@ -3089,9 +3089,9 @@
   "#1478": {
     "prefix": "top",
     "body": [
-      "t:${1:value}"
+      "t:"
     ],
-    "description": "t:value"
+    "description": "t:"
   },
   "#1479": {
     "prefix": "top: auto",
@@ -3103,9 +3103,9 @@
   "#1480": {
     "prefix": "right",
     "body": [
-      "r:${1:value}"
+      "r:"
     ],
-    "description": "r:value"
+    "description": "r:"
   },
   "#1481": {
     "prefix": "right: auto",
@@ -3117,9 +3117,9 @@
   "#1482": {
     "prefix": "bottom",
     "body": [
-      "b:${1:value}"
+      "b:"
     ],
-    "description": "b:value"
+    "description": "b:"
   },
   "#1483": {
     "prefix": "bottom: auto",
@@ -3131,9 +3131,9 @@
   "#1484": {
     "prefix": "left",
     "body": [
-      "l:${1:value}"
+      "l:"
     ],
-    "description": "l:value"
+    "description": "l:"
   },
   "#1485": {
     "prefix": "left: auto",
@@ -3145,9 +3145,9 @@
   "#1486": {
     "prefix": "opacity",
     "body": [
-      "op:${1:value}"
+      "op:"
     ],
-    "description": "op:value"
+    "description": "op:"
   },
   "#1487": {
     "prefix": "opacity: 0",
@@ -3166,9 +3166,9 @@
   "#1489": {
     "prefix": "overflow",
     "body": [
-      "ov:${1:value}"
+      "ov:"
     ],
-    "description": "ov:value"
+    "description": "ov:"
   },
   "#1490": {
     "prefix": "overflow: auto",
@@ -3201,9 +3201,9 @@
   "#1494": {
     "prefix": "overflow-x",
     "body": [
-      "ovx:${1:value}"
+      "ovx:"
     ],
-    "description": "ovx:value"
+    "description": "ovx:"
   },
   "#1495": {
     "prefix": "overflow-x: auto",
@@ -3236,9 +3236,9 @@
   "#1499": {
     "prefix": "overflow-y",
     "body": [
-      "ovy:${1:value}"
+      "ovy:"
     ],
-    "description": "ovy:value"
+    "description": "ovy:"
   },
   "#1500": {
     "prefix": "overflow-y: auto",
@@ -3271,9 +3271,9 @@
   "#1504": {
     "prefix": "-webkit-overflow-scrolling",
     "body": [
-      "ovs:${1:value}"
+      "ovs:"
     ],
-    "description": "ovs:value"
+    "description": "ovs:"
   },
   "#1505": {
     "prefix": "-webkit-overflow-scrolling: auto",
@@ -3292,44 +3292,44 @@
   "#1507": {
     "prefix": "padding",
     "body": [
-      "p:${1:value}"
+      "p:"
     ],
-    "description": "p:value"
+    "description": "p:"
   },
   "#1510": {
     "prefix": "padding-top",
     "body": [
-      "pt:${1:value}"
+      "pt:"
     ],
-    "description": "pt:value"
+    "description": "pt:"
   },
   "#1511": {
     "prefix": "padding-right",
     "body": [
-      "pr:${1:value}"
+      "pr:"
     ],
-    "description": "pr:value"
+    "description": "pr:"
   },
   "#1512": {
     "prefix": "padding-bottom",
     "body": [
-      "pb:${1:value}"
+      "pb:"
     ],
-    "description": "pb:value"
+    "description": "pb:"
   },
   "#1513": {
     "prefix": "padding-left",
     "body": [
-      "pl:${1:value}"
+      "pl:"
     ],
-    "description": "pl:value"
+    "description": "pl:"
   },
   "#1514": {
     "prefix": "pointer-events",
     "body": [
-      "pe:${1:value}"
+      "pe:"
     ],
-    "description": "pe:value"
+    "description": "pe:"
   },
   "#1515": {
     "prefix": "pointer-events: auto",
@@ -3404,9 +3404,9 @@
   "#1525": {
     "prefix": "position",
     "body": [
-      "pos:${1:value}"
+      "pos:"
     ],
-    "description": "pos:value"
+    "description": "pos:"
   },
   "#1526": {
     "prefix": "position: absolute",
@@ -3446,9 +3446,9 @@
   "#1531": {
     "prefix": "table-layout",
     "body": [
-      "tbl:${1:value}"
+      "tbl:"
     ],
-    "description": "tbl:value"
+    "description": "tbl:"
   },
   "#1532": {
     "prefix": "table-layout: auto",
@@ -3467,9 +3467,9 @@
   "#1534": {
     "prefix": "text-align",
     "body": [
-      "ta:${1:value}"
+      "ta:"
     ],
-    "description": "ta:value"
+    "description": "ta:"
   },
   "#1535": {
     "prefix": "text-align: center",
@@ -3523,9 +3523,9 @@
   "#1542": {
     "prefix": "text-align-last",
     "body": [
-      "tal:${1:value}"
+      "tal:"
     ],
-    "description": "tal:value"
+    "description": "tal:"
   },
   "#1543": {
     "prefix": "text-align-last: auto",
@@ -3579,9 +3579,9 @@
   "#1550": {
     "prefix": "text-decoration",
     "body": [
-      "td:${1:value}"
+      "td:"
     ],
-    "description": "td:value"
+    "description": "td:"
   },
   "#1551": {
     "prefix": "text-decoration: line-through",
@@ -3614,16 +3614,16 @@
   "#1555": {
     "prefix": "text-indent",
     "body": [
-      "ti:${1:value}"
+      "ti:"
     ],
-    "description": "ti:value"
+    "description": "ti:"
   },
   "#1556": {
     "prefix": "text-overflow",
     "body": [
-      "tov:${1:value}"
+      "tov:"
     ],
-    "description": "tov:value"
+    "description": "tov:"
   },
   "#1557": {
     "prefix": "text-overflow: clip",
@@ -3642,9 +3642,9 @@
   "#1559": {
     "prefix": "text-rendering",
     "body": [
-      "tren:${1:value}"
+      "tren:"
     ],
-    "description": "tren:value"
+    "description": "tren:"
   },
   "#1560": {
     "prefix": "text-rendering: auto",
@@ -3677,9 +3677,9 @@
   "#1564": {
     "prefix": "text-replace",
     "body": [
-      "tr:${1:value}"
+      "tr:"
     ],
-    "description": "tr:value"
+    "description": "tr:"
   },
   "#1565": {
     "prefix": "text-replace: none",
@@ -3691,9 +3691,9 @@
   "#1566": {
     "prefix": "text-transform",
     "body": [
-      "tt:${1:value}"
+      "tt:"
     ],
-    "description": "tt:value"
+    "description": "tt:"
   },
   "#1567": {
     "prefix": "text-transform: none",
@@ -3726,9 +3726,9 @@
   "#1571": {
     "prefix": "text-shadow",
     "body": [
-      "tsh:${1:value}"
+      "tsh:"
     ],
-    "description": "tsh:value"
+    "description": "tsh:"
   },
   "#1572": {
     "prefix": "text-shadow: none",
@@ -3740,16 +3740,16 @@
   "#1573": {
     "prefix": "transform",
     "body": [
-      "trf:${1:value}"
+      "trf:"
     ],
-    "description": "trf:value"
+    "description": "trf:"
   },
   "#1574": {
     "prefix": "transform-origin1 value2",
     "body": [
-      "trfo:${1:value}"
+      "trfo:"
     ],
-    "description": "trfo:value"
+    "description": "trfo:"
   },
   "#1575": {
     "prefix": "transform-origin: top ",
@@ -3964,9 +3964,9 @@
   "#1605": {
     "prefix": "transform-style",
     "body": [
-      "trfs:${1:value}"
+      "trfs:"
     ],
-    "description": "trfs:value"
+    "description": "trfs:"
   },
   "#1606": {
     "prefix": "transform-style: flat",
@@ -3985,9 +3985,9 @@
   "#1608": {
     "prefix": "perspective",
     "body": [
-      "prs:${1:value}"
+      "prs:"
     ],
-    "description": "prs:value"
+    "description": "prs:"
   },
   "#1609": {
     "prefix": "perspective: none",
@@ -3999,9 +3999,9 @@
   "#1610": {
     "prefix": "perspective-origin1 value2",
     "body": [
-      "prso:${1:value}"
+      "prso:"
     ],
-    "description": "prso:value"
+    "description": "prso:"
   },
   "#1611": {
     "prefix": "perspective-origin: top ",
@@ -4216,9 +4216,9 @@
   "#1641": {
     "prefix": "backface-visibility",
     "body": [
-      "bfv:${1:value}"
+      "bfv:"
     ],
-    "description": "bfv:value"
+    "description": "bfv:"
   },
   "#1642": {
     "prefix": "backface-visibility: hidden",
@@ -4370,16 +4370,16 @@
   "#1663": {
     "prefix": "transition",
     "body": [
-      "trs:${1:value}"
+      "trs:"
     ],
-    "description": "trs:value"
+    "description": "trs:"
   },
   "#1664": {
     "prefix": "transition-delay",
     "body": [
-      "trsde:${1:value}"
+      "trsde:"
     ],
-    "description": "trsde:value"
+    "description": "trsde:"
   },
   "#1665": {
     "prefix": "transition-delay: initial",
@@ -4391,16 +4391,16 @@
   "#1666": {
     "prefix": "transition-duration",
     "body": [
-      "trsdu:${1:value}"
+      "trsdu:"
     ],
-    "description": "trsdu:value"
+    "description": "trsdu:"
   },
   "#1667": {
     "prefix": "transition-property",
     "body": [
-      "trsp:${1:value}"
+      "trsp:"
     ],
-    "description": "trsp:value"
+    "description": "trsp:"
   },
   "#1668": {
     "prefix": "transition-property: all",
@@ -4412,9 +4412,9 @@
   "#1669": {
     "prefix": "transition-timing-function",
     "body": [
-      "trstf:${1:value}"
+      "trstf:"
     ],
-    "description": "trstf:value"
+    "description": "trstf:"
   },
   "#1670": {
     "prefix": "transition-timing-function: ease",
@@ -4468,9 +4468,9 @@
   "#1677": {
     "prefix": "user-select",
     "body": [
-      "us:${1:value}"
+      "us:"
     ],
-    "description": "us:value"
+    "description": "us:"
   },
   "#1678": {
     "prefix": "user-select: all",
@@ -4517,9 +4517,9 @@
   "#1684": {
     "prefix": "vertical-align",
     "body": [
-      "va:${1:value}"
+      "va:"
     ],
-    "description": "va:value"
+    "description": "va:"
   },
   "#1685": {
     "prefix": "vertical-align: bottom",
@@ -4580,9 +4580,9 @@
   "#1693": {
     "prefix": "visibility",
     "body": [
-      "v:${1:value}"
+      "v:"
     ],
-    "description": "v:value"
+    "description": "v:"
   },
   "#1694": {
     "prefix": "visibility: visible",
@@ -4608,9 +4608,9 @@
   "#1697": {
     "prefix": "white-space",
     "body": [
-      "whs:${1:value}"
+      "whs:"
     ],
-    "description": "whs:value"
+    "description": "whs:"
   },
   "#1698": {
     "prefix": "white-space: normal",
@@ -4650,9 +4650,9 @@
   "#1703": {
     "prefix": "white-space-collapse",
     "body": [
-      "whsc:${1:value}"
+      "whsc:"
     ],
-    "description": "whsc:value"
+    "description": "whsc:"
   },
   "#1704": {
     "prefix": "white-space-collapse: normal",
@@ -4692,9 +4692,9 @@
   "#1709": {
     "prefix": "width",
     "body": [
-      "w:${1:value}"
+      "w:"
     ],
-    "description": "w:value"
+    "description": "w:"
   },
   "#1710": {
     "prefix": "width: 0",
@@ -4755,9 +4755,9 @@
   "#1718": {
     "prefix": "word-break",
     "body": [
-      "wob:${1:value}"
+      "wob:"
     ],
-    "description": "wob:value"
+    "description": "wob:"
   },
   "#1719": {
     "prefix": "word-break: break-all",
@@ -4783,9 +4783,9 @@
   "#1722": {
     "prefix": "word-wrap",
     "body": [
-      "wow:${1:value}"
+      "wow:"
     ],
-    "description": "wow:value"
+    "description": "wow:"
   },
   "#1723": {
     "prefix": "word-wrap: break-word",
@@ -4804,9 +4804,9 @@
   "#1725": {
     "prefix": "z-index",
     "body": [
-      "z:${1:value}"
+      "z:"
     ],
-    "description": "z:value"
+    "description": "z:"
   },
   "#1726": {
     "prefix": "z-index: auto",
@@ -4818,9 +4818,9 @@
   "#1727": {
     "prefix": "fill",
     "body": [
-      "fill:${1:value}"
+      "fill:"
     ],
-    "description": "fill:value"
+    "description": "fill:"
   },
   "#1728": {
     "prefix": "fill: transparent",
@@ -4846,9 +4846,9 @@
   "#1878": {
     "prefix": "stroke",
     "body": [
-      "stk:${1:value}"
+      "stk:"
     ],
-    "description": "stk:value"
+    "description": "stk:"
   },
   "#1879": {
     "prefix": "stroke: transparent",
@@ -4874,9 +4874,9 @@
   "#2029": {
     "prefix": "stroke-width",
     "body": [
-      "stkw:${1:value}"
+      "stkw:"
     ],
-    "description": "stkw:value"
+    "description": "stkw:"
   },
   "#2030": {
     "prefix": "stroke-width: inherit",
@@ -4888,9 +4888,9 @@
   "#2031": {
     "prefix": "stroke-linecap",
     "body": [
-      "stklc:${1:value}"
+      "stklc:"
     ],
-    "description": "stklc:value"
+    "description": "stklc:"
   },
   "#2032": {
     "prefix": "stroke-linecap: inherit",
@@ -4923,9 +4923,9 @@
   "#2036": {
     "prefix": "stroke-linejoin",
     "body": [
-      "stklj:${1:value}"
+      "stklj:"
     ],
-    "description": "stklj:value"
+    "description": "stklj:"
   },
   "#2037": {
     "prefix": "stroke-linejoin: inherit",
