@@ -16,8 +16,8 @@
     "build": "yarn mota-css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "mota-css": "mota-css",
-    "mota-css:watch": "mota-css --watch"
+    "mota-css": "mota-css --port 4321",
+    "mota-css:watch": "yarn mota-css --watch"
   },
   "eslintConfig": {
     "extends": [
