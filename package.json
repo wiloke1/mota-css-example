@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.4.3",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -13,10 +12,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build && cp public/auto-styles.css build/auto-styles.css",
-    "test": "craco test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start",
+    "build": "yarn mota-css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "mota-css": "mota-css",
+    "mota-css:watch": "mota-css --watch"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +38,6 @@
     ]
   },
   "devDependencies": {
-    "mota-css": "0.1.5",
-    "webpack-mota-css-loader": "0.1.0"
+    "mota-css": "0.1.7"
   }
 }
