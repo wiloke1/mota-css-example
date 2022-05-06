@@ -18,9 +18,9 @@ function App() {
         </div>
       </div>
       <section className="pos:relative z:1 pt:50px pb:50px bgz:cover bgp:center">
-        <div className="container">
-          <div className="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-1">
-            <div className="col">
+        <div className="maw:1200px pl:15px pr:15px m:auto">
+          <div className="d:flex flw:wrap ml:-15px mr:-15px mt:-30px">
+            <div className="w:100% w:50%@sm w:33.33%@md w:25%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
                 <div className="fz:pfs(30px,50px)">
                   <i className="fal fa-bow-arrow" />
@@ -40,7 +40,7 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="col">
+            <div className="w:100% w:50%@sm w:33.33%@md w:25%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
                 <div className="fz:pfs(30px,50px)">
                   <i className="fal fa-briefcase" />
@@ -60,7 +60,7 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="col">
+            <div className="w:100% w:50%@sm w:33.33%@md w:25%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
                 <div className="fz:pfs(30px,50px)">
                   <i className="fal fa-building" />
@@ -80,7 +80,7 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="col">
+            <div className="w:100% w:50%@sm w:33.33%@md w:25%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5 bgc:rgba(0,0,0,0.04) p:15px p:20px@sm p:30px@md bdrs:20px">
                 <div className="fz:pfs(30px,50px)">
                   <i className="fal fa-cloud-moon" />
@@ -104,9 +104,9 @@ function App() {
         </div>
       </section>
       <section className="pos:relative z:1 pt:50px pb:50px bgz:cover bgp:center">
-        <div className="container">
-          <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
-            <div className="col">
+        <div className="maw:1200px pl:15px pr:15px m:auto">
+          <div className="d:flex flw:wrap ml:-15px mr:-15px mt:-30px">
+            <div className="w:100% w:50%@sm w:33.33%@md w:33.33%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5">
                 <div className="pos:relative pr:56px">
                   <div
@@ -149,7 +149,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="w:100% w:50%@sm w:33.33%@md w:33.33%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5">
                 <div className="pos:relative pr:56px">
                   <div
@@ -192,7 +192,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="w:100% w:50%@sm w:33.33%@md w:33.33%@lg pl:15px pr:15px mt:30px">
               <div className="c:#000 lh:1.5">
                 <div className="pos:relative pr:56px">
                   <div
