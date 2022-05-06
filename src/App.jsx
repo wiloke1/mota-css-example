@@ -3,14 +3,14 @@ function App() {
     <div>
       <div className="max-width:1000px m:auto">
         <h2>CSS ATOMIC</h2>
-        <div class="test-abc pos:relative! p:10px d:block bd:2px_solid_red cnt:(after)|af cnt:(after_hover)|hover|af">
-          <div class="c:color-primary c:#f00 c:rgba(255,255,255,0.6)! c:red|hover|after"></div>
-          <h2 class="ml:50px c:red c:blue|h fz:pfs(20px,60px)">Title</h2>
-          <div class="c:color-primary c:blue@+400px! c:green@sm fz:20px">
+        <div className="test-abc pos:relative! p:10px d:block bd:2px_solid_red cnt:(after)|af cnt:(after_hover)|hover|af">
+          <div className="c:color-primary c:#f00 c:rgba(255,255,255,0.6)! c:red|hover|after"></div>
+          <h2 className="ml:50px c:red c:blue|h fz:pfs(20px,60px)">Title</h2>
+          <div className="c:color-primary c:blue@+400px! c:green@sm fz:20px">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
             quaerat.
           </div>
-          <div class="margin-top:20px font-size:16px color:red">
+          <div className="margin-top:20px font-size:16px color:red">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             ipsum nihil debitis quod quaerat quae laboriosam officia maxime
             accusantium officiis?
@@ -98,6 +98,143 @@ function App() {
                 >
                   Learn more
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="pos:relative z:1 pt:50px pb:50px bgz:cover bgp:center">
+        <div className="container">
+          <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div className="col">
+              <div className="c:#000 lh:1.5">
+                <div className="pos:relative pr:56px">
+                  <div
+                    className="pt:120% bgp:center bgz:cover"
+                    style={{
+                      backgroundImage: `url('https://img.freepik.com/free-photo/handsome-smiling-bearded-man-glasses-working-laptop_285396-9847.jpg?w=2000')`,
+                    }}
+                  ></div>
+
+                  <div className="pos:absolute t:0 r:0">
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-facebook fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-twitter fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-instagram fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-linkedin fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="p:20px_56px_0_0 pos:relative z:9">
+                  <h2 className="m:0 fz:pfs(14px,16px) lts:1px tt:uppercase fw:600!">
+                    Monique Greer
+                  </h2>
+
+                  <div className="mt:10px op:0.8 fz:15px c:#444">
+                    Phasellus consectetur nisl quis leo facilisis, a fringilla
+                    risus posuere. Nullam felis urna, aliquam et
+                  </div>
+
+                  <div className="d:flex ai:center jc:flex-end mt:20px">
+                    <div className="w:40px h:1px bgc:#ccc"></div>
+                    <div className="fz:13px c:#444 ml:10px">Web Developer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="c:#000 lh:1.5">
+                <div className="pos:relative pr:56px">
+                  <div
+                    className="pt:120% bgp:center bgz:cover"
+                    style={{
+                      backgroundImage: `url('https://img.freepik.com/free-photo/handsome-busy-focused-man-shirt-sitting-relaxed-sofa-home-table-working-online-laptop-from-home_285396-9990.jpg?w=2000')`,
+                    }}
+                  ></div>
+
+                  <div className="pos:absolute t:0 r:0">
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-facebook fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-twitter fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-instagram fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-linkedin fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="p:20px_56px_0_0 pos:relative z:9">
+                  <h2 className="m:0 fz:pfs(14px,16px) lts:1px tt:uppercase fw:600!">
+                    Victor Hansen
+                  </h2>
+
+                  <div className="mt:10px op:0.8 fz:15px c:#444">
+                    Phasellus consectetur nisl quis leo facilisis, a fringilla
+                    risus posuere. Nullam felis urna, aliquam et
+                  </div>
+
+                  <div className="d:flex ai:center jc:flex-end mt:20px">
+                    <div className="w:40px h:1px bgc:#ccc"></div>
+                    <div className="fz:13px c:#444 ml:10px">Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="c:#000 lh:1.5">
+                <div className="pos:relative pr:56px">
+                  <div
+                    className="pt:120% bgp:center bgz:cover"
+                    style={{
+                      backgroundImage: `url('https://img.freepik.com/free-photo/young-happy-asian-woman-home_52476-139.jpg?w=2000')`,
+                    }}
+                  ></div>
+
+                  <div className="pos:absolute t:0 r:0">
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-facebook fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-twitter fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-instagram fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                    <a href="/" className="d:block td:none!">
+                      <i className="fab fa-linkedin fz:18px bgc:#eee c:#000 bgc:#000|h c:#fff|h w:46px h:46px d:flex jc:center ai:center mb:10px trs:0.3s"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="p:20px_56px_0_0 pos:relative z:9">
+                  <h2 className="m:0 fz:pfs(14px,16px) lts:1px tt:uppercase fw:600!">
+                    Pierre Hackett
+                  </h2>
+
+                  <div className="mt:10px op:0.8 fz:15px c:#444">
+                    Phasellus consectetur nisl quis leo facilisis, a fringilla
+                    risus posuere. Nullam felis urna, aliquam et
+                  </div>
+
+                  <div className="d:flex ai:center jc:flex-end mt:20px">
+                    <div className="w:40px h:1px bgc:#ccc"></div>
+                    <div className="fz:13px c:#444 ml:10px">
+                      Project Manager
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -17,6 +17,9 @@ body {
 .bgc\:rgba\(0\,0\,0\,0\.04\) { background-color: rgba(0,0,0,0.04) }
 .bgc\:\#6257de { background-color: #6257de }
 .bgc\:\#3c2fc9\|h:hover { background-color: #3c2fc9 }
+.bgc\:\#eee { background-color: #eee }
+.bgc\:\#000\|h:hover { background-color: #000 }
+.bgc\:\#ccc { background-color: #ccc }
 .bgz\:cover { background-size: cover }
 .bgp\:center { background-position: center }
 .bxsh\:none { box-shadow: none }
@@ -30,8 +33,16 @@ body {
 .c\:\#000 { color: #000 }
 .c\:\#fff { color: #fff }
 .c\:\#fff\|hover:hover { color: #fff }
+.c\:\#fff\|h:hover { color: #fff }
+.c\:\#444 { color: #444 }
+.cnt\:\(after\)\|af:after { content: 'after' }
+.cnt\:\(after_hover\)\|hover\|af:hover:after { content: 'after hover' }
 .d\:block { display: block }
 .d\:inline-block { display: inline-block }
+.d\:flex { display: flex }
+.ai\:center { align-items: center }
+.jc\:center { justify-content: center }
+.jc\:flex-end { justify-content: flex-end }
 .fw\:600\! { font-weight: 600 !important }
 .fw\:600 { font-weight: 600 }
 .fz\:pfs\(20px\,60px\) { font-size: clamp(20px, 5vw + 0px, 60px) }
@@ -41,6 +52,12 @@ body {
 .fz\:pfs\(18px\,24px\) { font-size: clamp(18px, 0.75vw + 15px, 24px) }
 .fz\:15px { font-size: 15px }
 .fz\:14px { font-size: 14px }
+.fz\:18px { font-size: 18px }
+.fz\:pfs\(14px\,16px\) { font-size: clamp(14px, 0.25vw + 13px, 16px) }
+.fz\:13px { font-size: 13px }
+.h\:46px { height: 46px }
+.h\:1px { height: 1px }
+.lts\:1px { letter-spacing: 1px }
 .lh\:1\.5 { line-height: 1.5 }
 .m\:auto { margin: auto }
 .m\:0 { margin: 0 }
@@ -48,23 +65,38 @@ body {
 .mt\:15px { margin-top: 15px }
 .mt\:10px { margin-top: 10px }
 .mt\:20px { margin-top: 20px }
+.mb\:10px { margin-bottom: 10px }
 .ml\:50px { margin-left: 50px }
 [dir="rtl"] .ml\:50px { margin-right: 50px }
+.ml\:10px { margin-left: 10px }
+[dir="rtl"] .ml\:10px { margin-right: 10px }
 .max-width\:1000px { max-width: 1000px }
 .o\:0 { outline: 0 }
+.t\:0 { top: 0 }
 .op\:0\.8 { opacity: 0.8 }
 .p\:10px { padding: 10px }
 .p\:15px { padding: 15px }
 .p\:13px_20px { padding: 13px 20px }
+.p\:20px_56px_0_0 { padding: 20px 56px 0 0 }
+[dir="rtl"] .p\:20px_56px_0_0 { padding: 20px 0 0 56px }
 .pt\:50px { padding-top: 50px }
+.pt\:120\% { padding-top: 120% }
+.pr\:56px { padding-right: 56px }
+[dir="rtl"] .pr\:56px { padding-left: 56px }
 .pb\:50px { padding-bottom: 50px }
 .pos\:relative\! { position: relative !important }
 .pos\:relative { position: relative }
+.pos\:absolute { position: absolute }
 .td\:none { text-decoration: none }
+.td\:none\! { text-decoration: none !important }
+.tt\:uppercase { text-transform: uppercase }
 .trs\:0\.3s { transition: 0.3s }
+.w\:46px { width: 46px }
+.w\:40px { width: 40px }
 .z\:1 { z-index: 1 }
-.cnt\:\(after\)\|af:after { content: 'after' }
-.cnt\:\(after_hover\)\|hover\|af:hover:after { content: 'after hover' }
+.z\:9 { z-index: 9 }
+.r\:0 { right: 0 }
+[dir="rtl"] .r\:0 { left: 0 }
 @media (max-width:400px) { 
 .c\:blue\@\+400px\! { color: blue !important } }
 @media (min-width:768px) { 
