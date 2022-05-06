@@ -30,8 +30,6 @@ body {
 .c\:\#000 { color: #000 }
 .c\:\#fff { color: #fff }
 .c\:\#fff\|hover:hover { color: #fff }
-.cnt\:\'after\'\|af:after { content: 'after' }
-.cnt\:\'after_hover\'\|hover\|af:hover:after { content: 'after hover' }
 .d\:block { display: block }
 .d\:inline-block { display: inline-block }
 .fw\:600\! { font-weight: 600 !important }
@@ -65,6 +63,8 @@ body {
 .td\:none { text-decoration: none }
 .trs\:0\.3s { transition: 0.3s }
 .z\:1 { z-index: 1 }
+.cnt\:\(after\)\|af:after { content: 'after' }
+.cnt\:\(after_hover\)\|hover\|af:hover:after { content: 'after hover' }
 @media (max-width:400px) { 
 .c\:blue\@\+400px\! { color: blue !important } }
 @media (min-width:768px) { 
