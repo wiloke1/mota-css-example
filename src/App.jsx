@@ -10,7 +10,7 @@ function App() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
             quaerat.
           </div>
-          <div className="margin-top:20px font-size:16px color:red">
+          <div className="mt:20px fz:16px c:red">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             ipsum nihil debitis quod quaerat quae laboriosam officia maxime
             accusantium officiis?
