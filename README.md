@@ -10,3 +10,10 @@ Mota css ( Atomic css )
 
 ### Compile atomic css
 `npm run mota-css:watch` or `yarn mota-css:watch`
+
+### Intelligent Mota CSS tooling for VS Code
+
+<https://marketplace.visualstudio.com/items?itemName=wiloke.mota-css-intellisense>
+
+
+<img src="https://raw.githubusercontent.com/wiloke1/mota-css-example/main/.github/banner.png" alt="" />
