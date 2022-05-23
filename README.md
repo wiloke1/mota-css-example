@@ -50,12 +50,13 @@ module.exports = {
 
 ### Html
 ```html
-<div class="c:red c:blue|h fz:20px w:30%@md p:30px@md m:20px@+300px pos:relative!"></div>
+<div class="c:red c:blue|h bgc:color-primary fz:20px w:30%@md p:30px@md m:20px@+300px pos:relative!"></div>
 ```
 ### Generated css code
 ```css
 .c\:red { color: red }
 .c\:blue\|h:hover { color: blue }
+.bgc\:color-primary { background-color: var(--color-primary) }
 .fz\:20px { font-size: 20px }
 .pos\:relative\! { position: relative !important }
 @media (max-width:300px) { 
