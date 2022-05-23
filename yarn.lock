@@ -5956,10 +5956,10 @@ mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
-mota-css@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/mota-css/-/mota-css-0.7.0.tgz#c10b0cb7d18afb3c4da8b0bf069f34e7e32ac969"
-  integrity sha512-rvMCxJEY/GnilPYhgC2bJWedWQblS4qav3JbyJ2H9YDTsgVFJgZeUgbQu4eKy/iu4lDBk+Df+zl9Jc/lGVLVnQ==
+mota-css@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/mota-css/-/mota-css-0.8.0.tgz#3e02839a6dee6c865f98d3f8fc337c6746fafbcb"
+  integrity sha512-pnCz4drHJVaMhdGZPkYNcO6zGs/90Umb7fe9IwISDUrCtXsJxQyS1i0w1kt1E/7hgtKt/hRDTaGJDn2lWN43oQ==
   dependencies:
     chokidar "^3.5.3"
     commander "^9.1.0"
@@ -5967,6 +5967,7 @@ mota-css@^0.7.0:
     glob "^7.2.0"
     rtl-css-js "^1.15.0"
     string-hash "^1.1.3"
+    vscode-css-languageservice "^6.0.1"
 
 ms@2.0.0:
   version "2.0.0"
@@ -8369,6 +8370,36 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+vscode-css-languageservice@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/vscode-css-languageservice/-/vscode-css-languageservice-6.0.1.tgz#ccf94944e094dcc5833d1b4ac276994b698e9283"
+  integrity sha512-81n/eeYuJwQdvpoy6IK1258PtPbO720fl13FcJ5YQECPyHMFkmld1qKHwPJkyLbLPfboqJPM53ys4xW8v+iBVw==
+  dependencies:
+    vscode-languageserver-textdocument "^1.0.4"
+    vscode-languageserver-types "^3.17.1"
+    vscode-nls "^5.0.1"
+    vscode-uri "^3.0.3"
+
+vscode-languageserver-textdocument@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.4.tgz#3cd56dd14cec1d09e86c4bb04b09a246cb3df157"
+  integrity sha512-/xhqXP/2A2RSs+J8JNXpiiNVvvNM0oTosNVmQnunlKvq9o4mupHOBAnnzH0lwIPKazXKvAKsVp1kr+H/K4lgoQ==
+
+vscode-languageserver-types@^3.17.1:
+  version "3.17.1"
+  resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.17.1.tgz#c2d87fa7784f8cac389deb3ff1e2d9a7bef07e16"
+  integrity sha512-K3HqVRPElLZVVPtMeKlsyL9aK0GxGQpvtAUTfX4k7+iJ4mc1M+JM+zQwkgGy2LzY0f0IAafe8MKqIkJrxfGGjQ==
+
+vscode-nls@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/vscode-nls/-/vscode-nls-5.0.1.tgz#ba23fc4d4420d25e7f886c8e83cbdcec47aa48b2"
+  integrity sha512-hHQV6iig+M21lTdItKPkJAaWrxALQb/nqpVffakO4knJOh3DrU2SXOMzUzNgo1eADPzu3qSsJY1weCzvR52q9A==
+
+vscode-uri@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-3.0.3.tgz#a95c1ce2e6f41b7549f86279d19f47951e4f4d84"
+  integrity sha512-EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"

@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "mota-css": "^0.7.0"
+    "mota-css": "^0.8.0"
   }
 }
