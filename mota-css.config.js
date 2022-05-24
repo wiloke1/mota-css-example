@@ -4,6 +4,7 @@ module.exports = {
   input: ["./src/**/*.jsx", "./src/**/*.js"],
   output: "./src/mota-css.css",
   defaultCss: baseStyles,
+  cache: true,
   useRtl: true,
   // customValue(value) {
   //   // customValue
