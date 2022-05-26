@@ -1,3 +1,4 @@
+const { rtl, pfs } = require("mota-css");
 const { baseStyles } = require("./src/baseStyles");
 
 module.exports = {
@@ -5,7 +6,7 @@ module.exports = {
   output: "./src/mota-css.css",
   defaultCss: baseStyles,
   cache: true,
-  useRtl: true,
+  plugins: [rtl(), pfs()],
   // customValue(value) {
   //   // customValue
   //   console.log(value);
