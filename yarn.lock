@@ -5956,10 +5956,10 @@ mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
-mota-css@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/mota-css/-/mota-css-0.16.0.tgz#1dc0186a2e5e423963c802436e1e3bdff581f46f"
-  integrity sha512-4DEa5nd+UIhDygm69HAZVKiwxKr/0I9BbJtcaMdwXypSrQJUCSjHK51lPWuWMPuaBoFnDMcsuwIIKWjPejQ2Rw==
+mota-css@^0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/mota-css/-/mota-css-0.16.1.tgz#0b239cfe9963b79f402f5b2da1c621436a170eda"
+  integrity sha512-3QVtKemR4615iW/50QhyaEn/4jmcXVNLDUxVqDwtlG24OtXf2BnZfG1E8g6nHCQZZIBDXwwYoZEhPu0eVVEHvg==
   dependencies:
     chokidar "^3.5.3"
     commander "^9.1.0"
