@@ -1,4 +1,4 @@
-const { rtl, pfs } = require("mota-css");
+const { rtl, pfs, groupHover } = require("mota-css");
 const { baseStyles } = require("./src/baseStyles");
 
 function pixelToRem(rootFontSize) {
@@ -30,6 +30,34 @@ function pixelToRem(rootFontSize) {
   };
 }
 
+function log(...arr) {
+  return console.log(
+    ...arr.map(([text, color]) => `\x1b[${color}m${text}\x1b[0m`)
+  );
+}
+
+function numberOfLines() {
+  return ({ input, prevInput, addComponent }) => {
+    addComponent(`[class*="lines"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}`);
+
+    const classNames = input.match(/lines-\d*/g);
+    if (classNames) {
+      classNames.forEach((className) => {
+        const lineClamp = Number(className.replace(/lines-/g, ""));
+        addComponent(`.${className} { -webkit-line-clamp: ${lineClamp} }`);
+        if (prevInput && !prevInput.includes(className)) {
+          log([`[Compiled successfully]`, 32], [`(class: ${className})`, 35]);
+        }
+      });
+    }
+  };
+}
+
 module.exports = {
   input: ["./src/**/*.jsx", "./src/**/*.js"],
   output: "./src/mota-css.css",
@@ -38,6 +66,8 @@ module.exports = {
   plugins: [
     rtl(),
     pfs(),
+    groupHover(),
+    numberOfLines(),
     //pixelToRem(100)
   ],
   // customValue(value) {

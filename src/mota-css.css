@@ -11,6 +11,13 @@ body {
   line-height: 1.5;
   font-size: 14px;
 }
+[class*="lines"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.lines-4 { -webkit-line-clamp: 4 }
 .bd\:2px_solid_red { border: 2px solid red }
 .bdrs\:20px { border-radius: 20px }
 .bdrs\:10px { border-radius: 10px }
@@ -79,6 +86,7 @@ body {
 .o\:0 { outline: 0 }
 .t\:0 { top: 0 }
 .op\:0\.8 { opacity: 0.8 }
+.ov\:hidden { overflow: hidden }
 .p\:10px { padding: 10px }
 .p\:15px { padding: 15px }
 .p\:13px_20px { padding: 13px 20px }
@@ -99,7 +107,10 @@ body {
 .td\:none { text-decoration: none }
 .td\:none\! { text-decoration: none !important }
 .tt\:uppercase { text-transform: uppercase }
+.group\*:hover .trf\:scale\(1\.1\)_rotate\(2deg\)\*group-hover { transform: scale(1.1) rotate(2deg) }
+.group\*:hover [dir=\"rtl\"] .trf\:scale\(1\.1\)_rotate\(2deg\)\*group-hover { transform: scale(1.1) rotate(-2deg) }
 .trs\:0\.3s { transition: 0.3s }
+.trs\:0\.5s { transition: 0.5s }
 .w\:100\% { width: 100% }
 .w\:46px { width: 46px }
 .w\:40px { width: 40px }

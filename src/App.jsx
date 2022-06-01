@@ -28,9 +28,21 @@ function App() {
                 <h2 className="m:0 mt:15px fz:pfs(18px,24px) fw:600!">
                   Curabitur ac porta sapien
                 </h2>
-                <div className="mt:10px op:0.8 fz:15px">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  malesuada augue eu rhoncus vehicula
+                <div className="mt:10px op:0.8 fz:15px lines-4">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,
+                  sunt a? Officiis delectus molestiae dolore ipsum impedit
+                  facilis sapiente quis provident, eos ipsam magnam amet
+                  corrupti temporibus nesciunt voluptate, reiciendis consequatur
+                  dicta incidunt maiores inventore? Eveniet atque enim at ipsum
+                  architecto consequatur non dolore accusamus. Odio eum
+                  architecto, aliquam autem tempore blanditiis vero, laboriosam
+                  distinctio nobis nulla quisquam soluta, minima placeat
+                  asperiores deleniti. Placeat reprehenderit illo voluptatum,
+                  maxime neque recusandae est quam saepe sint optio suscipit cum
+                  eaque harum ipsam perspiciatis modi, vero voluptate soluta
+                  voluptas tenetur? Voluptatum aliquam aspernatur accusantium
+                  perspiciatis voluptate, vel magni. Consequatur at incidunt
+                  corporis quasi.
                 </div>
                 <a
                   href="/"
@@ -107,14 +119,16 @@ function App() {
         <div className="maw:1200px pl:15px pr:15px m:auto">
           <div className="d:flex flw:wrap ml:-15px mr:-15px mt:-30px">
             <div className="w:100% w:50%@sm w:33.33%@md w:33.33%@lg pl:15px pr:15px mt:30px">
-              <div className="c:#000 lh:1.5">
+              <div className="group* c:#000 lh:1.5">
                 <div className="pos:relative pr:56px">
-                  <div
-                    className="pt:120% bgp:center bgz:cover"
-                    style={{
-                      backgroundImage: `url('https://img.freepik.com/free-photo/handsome-smiling-bearded-man-glasses-working-laptop_285396-9847.jpg?w=2000')`,
-                    }}
-                  ></div>
+                  <div className="ov:hidden">
+                    <div
+                      className="pt:120% bgp:center bgz:cover trf:scale(1.1)_rotate(2deg)*group-hover trs:0.5s"
+                      style={{
+                        backgroundImage: `url('https://img.freepik.com/free-photo/handsome-smiling-bearded-man-glasses-working-laptop_285396-9847.jpg?w=2000')`,
+                      }}
+                    ></div>
+                  </div>
 
                   <div className="pos:absolute t:0 r:0">
                     <a href="/" className="d:block td:none!">
@@ -150,14 +164,16 @@ function App() {
               </div>
             </div>
             <div className="w:100% w:50%@sm w:33.33%@md w:33.33%@lg pl:15px pr:15px mt:30px">
-              <div className="c:#000 lh:1.5">
+              <div className="group* c:#000 lh:1.5">
                 <div className="pos:relative pr:56px">
-                  <div
-                    className="pt:120% bgp:center bgz:cover"
-                    style={{
-                      backgroundImage: `url('https://img.freepik.com/free-photo/handsome-busy-focused-man-shirt-sitting-relaxed-sofa-home-table-working-online-laptop-from-home_285396-9990.jpg?w=2000')`,
-                    }}
-                  ></div>
+                  <div className="ov:hidden">
+                    <div
+                      className="pt:120% bgp:center bgz:cover trf:scale(1.1)_rotate(2deg)*group-hover trs:0.5s"
+                      style={{
+                        backgroundImage: `url('https://img.freepik.com/free-photo/handsome-busy-focused-man-shirt-sitting-relaxed-sofa-home-table-working-online-laptop-from-home_285396-9990.jpg?w=2000')`,
+                      }}
+                    ></div>
+                  </div>
 
                   <div className="pos:absolute t:0 r:0">
                     <a href="/" className="d:block td:none!">
@@ -193,14 +209,16 @@ function App() {
               </div>
             </div>
             <div className="w:100% w:50%@sm w:33.33%@md w:33.33%@lg pl:15px pr:15px mt:30px">
-              <div className="c:#000 lh:1.5">
+              <div className="group* c:#000 lh:1.5">
                 <div className="pos:relative pr:56px">
-                  <div
-                    className="pt:120% bgp:center bgz:cover"
-                    style={{
-                      backgroundImage: `url('https://img.freepik.com/free-photo/young-happy-asian-woman-home_52476-139.jpg?w=2000')`,
-                    }}
-                  ></div>
+                  <div className="ov:hidden">
+                    <div
+                      className="pt:120% bgp:center bgz:cover trf:scale(1.1)_rotate(2deg)*group-hover trs:0.5s"
+                      style={{
+                        backgroundImage: `url('https://img.freepik.com/free-photo/young-happy-asian-woman-home_52476-139.jpg?w=2000')`,
+                      }}
+                    ></div>
+                  </div>
 
                   <div className="pos:absolute t:0 r:0">
                     <a href="/" className="d:block td:none!">

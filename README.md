@@ -25,7 +25,7 @@ module.exports = {
     }
   `,
   cache: true,
-  plugins: [pixelToRem(62.5), rtl(), pfs(), testplugin2()],
+  plugins: [pixelToRem(62.5), rtl(), pfs(), numberOfLines()],
   customValue(value) {
     // customValue
     console.log(value);
@@ -74,11 +74,34 @@ function pixelToRem(rootFontSize) {
 }
 // use pixelToRem: fz:14px -> css { font-size: ...rem }
 
-function testplugin2() {
-  return ({ addBase }) => {
-    addBase(`.testttttttttt { color: red }`);
+function log(...arr) {
+  return console.log(
+    ...arr.map(([text, color]) => `\x1b[${color}m${text}\x1b[0m`)
+  );
+}
+
+function numberOfLines() {
+  return ({ input, prevInput, addComponent }) => {
+    addComponent(`[class*="number-of-lines"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}`);
+
+    const classNames = input.match(/number-of-lines-\d*/g);
+    if (classNames) {
+      classNames.forEach((className) => {
+        const lineClamp = Number(className.replace(/number-of-lines-/g, ""));
+        addComponent(`.${className} { -webkit-line-clamp: ${lineClamp} }`);
+        if (prevInput && !prevInput.includes(className)) {
+          log([`[Compiled successfully]`, 32], [`(class: ${className})`, 35]);
+        }
+      });
+    }
   };
 }
+// use numberOfLines: lines-3 -> css { ... }
 ```
 
 ### CLI (file package.json)
