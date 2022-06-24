@@ -17,6 +17,14 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+[dir=rtl] .mr\:-15px { margin-right: initial }
+[dir=rtl] .ml\:50px { margin-left: initial }
+[dir=rtl] .ml\:-15px { margin-left: initial }
+[dir=rtl] .ml\:10px { margin-left: initial }
+[dir=rtl] .pr\:15px { padding-right: initial }
+[dir=rtl] .pr\:56px { padding-right: initial }
+[dir=rtl] .pl\:15px { padding-left: initial }
+[dir=rtl] .r\:0 { right: initial }
 .lines-4 { -webkit-line-clamp: 4 }
 .bd\:2px_solid_red { border: 2px solid red }
 .bdrs\:20px { border-radius: 20px }
@@ -74,14 +82,14 @@ body {
 .mt\:15px { margin-top: 15px }
 .mt\:10px { margin-top: 10px }
 .mr\:-15px { margin-right: -15px }
-[dir=\"rtl\"] .mr\:-15px { margin-left: -15px }
+[dir=rtl] .mr\:-15px { margin-left: -15px }
 .mb\:10px { margin-bottom: 10px }
 .ml\:50px { margin-left: 50px }
-[dir=\"rtl\"] .ml\:50px { margin-right: 50px }
+[dir=rtl] .ml\:50px { margin-right: 50px }
 .ml\:-15px { margin-left: -15px }
-[dir=\"rtl\"] .ml\:-15px { margin-right: -15px }
+[dir=rtl] .ml\:-15px { margin-right: -15px }
 .ml\:10px { margin-left: 10px }
-[dir=\"rtl\"] .ml\:10px { margin-right: 10px }
+[dir=rtl] .ml\:10px { margin-right: 10px }
 .maw\:1200px { max-width: 1200px }
 .o\:0 { outline: 0 }
 .t\:0 { top: 0 }
@@ -91,16 +99,16 @@ body {
 .p\:15px { padding: 15px }
 .p\:13px_20px { padding: 13px 20px }
 .p\:20px_56px_0_0 { padding: 20px 56px 0 0 }
-[dir=\"rtl\"] .p\:20px_56px_0_0 { padding: 20px 0 0 56px }
+[dir=rtl] .p\:20px_56px_0_0 { padding: 20px 0 0 56px }
 .pt\:50px { padding-top: 50px }
 .pt\:120\% { padding-top: 120% }
 .pr\:15px { padding-right: 15px }
-[dir=\"rtl\"] .pr\:15px { padding-left: 15px }
+[dir=rtl] .pr\:15px { padding-left: 15px }
 .pr\:56px { padding-right: 56px }
-[dir=\"rtl\"] .pr\:56px { padding-left: 56px }
+[dir=rtl] .pr\:56px { padding-left: 56px }
 .pb\:50px { padding-bottom: 50px }
 .pl\:15px { padding-left: 15px }
-[dir=\"rtl\"] .pl\:15px { padding-right: 15px }
+[dir=rtl] .pl\:15px { padding-right: 15px }
 .pos\:relative\! { position: relative !important }
 .pos\:relative { position: relative }
 .pos\:absolute { position: absolute }
@@ -108,7 +116,7 @@ body {
 .td\:none\! { text-decoration: none !important }
 .tt\:uppercase { text-transform: uppercase }
 .group\*:hover .trf\:scale\(1\.1\)_rotate\(2deg\)\*group-hover { transform: scale(1.1) rotate(2deg) }
-.group\*:hover [dir=\"rtl\"] .trf\:scale\(1\.1\)_rotate\(2deg\)\*group-hover { transform: scale(1.1) rotate(-2deg) }
+.group\*:hover [dir=rtl] .trf\:scale\(1\.1\)_rotate\(2deg\)\*group-hover { transform: scale(1.1) rotate(-2deg) }
 .trs\:0\.3s { transition: 0.3s }
 .trs\:0\.5s { transition: 0.5s }
 .w\:100\% { width: 100% }
@@ -117,7 +125,7 @@ body {
 .z\:1 { z-index: 1 }
 .z\:9 { z-index: 9 }
 .r\:0 { right: 0 }
-[dir=\"rtl\"] .r\:0 { left: 0 }
+[dir=rtl] .r\:0 { left: 0 }
 @media (max-width:400px) { 
 .c\:blue\@\+400px\! { color: blue !important } }
 @media (min-width:768px) { 
