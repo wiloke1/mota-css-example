@@ -39,6 +39,6 @@
   },
   "devDependencies": {
     "eslint-plugin-preact": "^0.1.0",
-    "mota-css": "^0.20.0"
+    "mota-css": "^0.22.0"
   }
 }
